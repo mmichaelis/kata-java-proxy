@@ -38,7 +38,7 @@ public class LegacyMessagesTest {
 
   @Test
   public void thatsMe() throws Exception {
-    LOG.info(format(resourceBundle.getString("thatsMe"), this));
+    LOG.info(format(resourceBundle.getString("thatsMe"), this, "hurz"));
   }
 
   @Test
